@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container-wrapper {
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.card-image1 {
+    display: inline;
+    border-radius: 10px;
+ height: 400px;
+ width: 195px;
+ background-size: cover;
+ background-position: center;
+ background-color: tomato;
+ background-image: url(img/japan.jpg);
+}
+.card-image2 {
+    background-position: center;
+    border-radius: 10px;
+ height: 400px;
+ width: 195px;
+ background-size: cover;
+ background-color: tomato;
+ background-image: url(img/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise.jpg);
+}
+.card-image3 {
+ height: 400px;
+ background-position: center;
+ border-radius: 10px;
+ width: 195px;
+ background-size: cover;
+ background-color: tomato;
+ background-image: url(img/olympus-digital-camera.jpg);
+}
+.card-image4 {
+ height: 400px;
+ border-radius: 10px;
+ width: 195px;
+ background-position: center;
+ background-size: cover;
+ background-color: tomato;
+ background-image: url(img/winding-road-beside-field-yellow-petaled-flowers.jpg);
+}
+.card-image1:hover,
+.card-image2:hover,
+.card-image3:hover,
+.card-image4:hover {
+    cursor: pointer;
+    
+    z-index: 1;
+    width: 600px;
+    transition: 1s ease-in;
+}
+
+
+
